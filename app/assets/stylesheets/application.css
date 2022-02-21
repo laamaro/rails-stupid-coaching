@@ -13,3 +13,17 @@
  *= require_tree .
  *= require_self
  */
+ body {
+  background: rgb(212, 212, 212);
+}
+
+h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+}
